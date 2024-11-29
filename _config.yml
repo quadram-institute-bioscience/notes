@@ -1,18 +1,25 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
+name: "Binfie notes"
+title: "Binfie notes"
 description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+baseurl: /binfie-notes
+# google_analytics: 'UA-46278016-1'
+# disqus: 'demowebsite'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
+  at:
+    name: Andrea Telatin
+    display_name: Andrea Telatin
+    gravatar: f4ae403ab821b6c55bed3a7efd4c6aa1
+    web: https://telatin.github.io/
+    twitter: https://twitter.com/telatin
+    description: "Senior bioinformatician at the Quadram Institute Bioscience, Norwich."
   sal:
     name: Sal
     display_name: Sal
@@ -38,6 +45,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jemoji
+  - jekyll-gist 
+  - jekyll-youtube
     
 # Archives
 jekyll-archives:
