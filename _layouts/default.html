@@ -156,26 +156,14 @@
     data-cfasync="false"></script>
 
 <!-- Add google analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q12CPTSQDT"></script>
 <script>
-    // Reads the value of a cookie by name or returns empty string
-    function getCookie(name) {
-        var b = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
-        return b ? b.pop() : '';
-    }
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    // Actually starting analytics up
-    function addAnalytics() {
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'UA-XXXXXXXX-X');
-    }
+  gtag('config', 'G-Q12CPTSQDT');
+</script>
 
     // Waiting for the load event
     window.addEventListener("load", function () {
