@@ -305,11 +305,13 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .mainheading h1.posttitle {
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 

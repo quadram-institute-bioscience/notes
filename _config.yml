@@ -1,7 +1,7 @@
 # Site
 name: "Binfie notes"
 title: "Binfie notes"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "Bioinformatics tips and tricks."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /binfie-notes
