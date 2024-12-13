@@ -20,6 +20,12 @@ authors:
     web: https://telatin.github.io/
     twitter: https://twitter.com/telatin
     description: "Head of Bioinformatics at the Quadram Institute Bioscience, Norwich."
+  jt:
+    name: Judit Talas
+    display_name: Judit Talas
+    gravatar: a811fc7b3f22425d9502e270dc6c9d9c
+    twitter: https://x.com/talasjudit
+    description: "Bioinformatics Data Scientist at the Quadram Institute Bioscience, Norwich."
 
 # Plugins
 plugins:
