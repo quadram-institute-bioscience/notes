@@ -26,6 +26,11 @@ authors:
     gravatar: a811fc7b3f22425d9502e270dc6c9d9c
     twitter: https://x.com/talasjudit
     description: "Bioinformatics Data Scientist at the Quadram Institute Bioscience, Norwich."
+  ap:
+    name: Alise Ponsero
+    display_name: Alise Ponsero
+    gravatar: 6fab599229767b48afe1b33cff175018
+    description: "Bioinformatic Data Scientist at the Quadram Institute Bioscience, Norwich."
 
 # Plugins
 plugins:
